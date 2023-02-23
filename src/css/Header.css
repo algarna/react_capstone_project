@@ -1,0 +1,42 @@
+/*---- Header ----*/
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 1em;
+    flex-direction: row-reverse;
+}
+
+.logo img {
+    margin-top: 0.5em;
+}
+
+/*---- Navbar ----*/
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 1em;
+    color: #000;
+}
+
+.navigation a {
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+}
